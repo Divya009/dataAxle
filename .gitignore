@@ -1,0 +1,9 @@
+db.sqlite3
+*.pyc
+*__pycache__
+*__pycache__/*.pyc
+*__pycache__/
+slotBooking/migrations/*.pyc
+slotBooking/migrations/__pycache__/*.pyc
+parking_slot_system/__pycache__/*.pyc
+slotBooking/__pycache__/*.pyc
