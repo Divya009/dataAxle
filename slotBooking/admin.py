@@ -10,7 +10,7 @@ class UserProfileAdmin(admin.ModelAdmin):
 @admin.register(Parking)
 class ParkingAdmin(admin.ModelAdmin):
 	search_fields = ("latitude","longitude")
-	list_display = [field.name for field in Parking._meta.get_fields()]
+	list_display = ['address', 'latitude', 'longitude']
 
 @admin.register(ReservationSlot)
 class ReservationSlotAdmin(admin.ModelAdmin):
